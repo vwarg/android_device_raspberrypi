@@ -3,6 +3,7 @@ TARGET_GLOBAL_CPPFLAGS += -mfpu=vfp -mfloat-abi=softfp -Os
 
 TARGET_ARCH := arm
 TARGET_ARCH_VARIANT := armv6-vfp
+TARGET_BOARD_PLATFORM := rpi
 
 TARGET_CPU_ABI := armeabi-v6l
 TARGET_CPU_ABI2 := armeabi
