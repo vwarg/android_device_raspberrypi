@@ -31,3 +31,6 @@ PRODUCT_PACKAGES += \
 #HWCOMPOSER
 PRODUCT_PACKAGES += \
 	hwcomposer.rpi
+
+#Init.rc
+PRODUCT_COPY_FILES += device/rpi/raspberrypi/init.rc:root/init.rc
