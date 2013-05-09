@@ -10,7 +10,8 @@ PRODUCT_PACKAGES += \
 	libvcos \
 	libvchostif \
 	libvcfiled_check \
-	libvcilcs
+	libvcilcs \
+	libgrlc
 
 
 ifeq ($(USERLAND_BUILD_MMAL),true)
