@@ -23,6 +23,11 @@ BUILD_WITH_ALSA_UTILS := true
 BOARD_HAVE_BLUETOOTH := false
 USE_CAMERA_STUB := true
 
+#EGL
+BOARD_EGL_CFG := device/rpi/raspberrypi/egl.cfg
+USE_OPENGL_RENDERER := true
+
+
 JS_ENGINE := v8
 HTTP := chrome
 WITH_JIT := true
