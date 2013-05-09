@@ -1,8 +1,8 @@
 #USERLAND LIBS
 PRODUCT_PACKAGES += \
 	libbcm_host \
-	libEGL \
-	libGLESv2 \
+	libEGL_$(TARGET_BOARD_PLATFORM) \
+	libGLESv2_$(TARGET_BOARD_PLATFORM) \
 	libOpenVG \
 	libWFC \
 	libvmcs_rpc_client \
