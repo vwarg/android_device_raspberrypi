@@ -88,13 +88,6 @@ on init
     chmod 0777 /dev/cpuctl/bg_non_interactive/tasks
     # 5.0 %
     write /dev/cpuctl/bg_non_interactive/cpu.shares 52
-    
-
-#vchiq and vcos
-    chown system system /dev/vchiq
-    chmod 0777 /dev/vchiq
-    chown system system /dev/vcos
-    chmod 0777 /dev/vcos
 
 # Allow everybody to read the xt_qtaguid resource tracking misc dev.
 # This is needed by any process that uses socket tagging.
